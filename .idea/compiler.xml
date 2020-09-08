@@ -9,11 +9,13 @@
         <module name="eurekaserver" />
         <module name="hystrix" />
         <module name="nativeConfigServer" />
+        <module name="configclient" />
         <module name="ribbon" />
         <module name="consume" />
         <module name="eurekaclinet" />
         <module name="zuul" />
         <module name="nativeConfigClient" />
+        <module name="configserver" />
         <module name="feign" />
         <module name="resttemplate" />
       </profile>
@@ -21,16 +23,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="consume" options="-parameters" />
-      <module name="eurekaclinet" options="-parameters" />
-      <module name="eurekaserver" options="-parameters" />
-      <module name="feign" options="-parameters" />
-      <module name="hystrix" options="-parameters" />
-      <module name="nativeConfigClient" options="-parameters" />
-      <module name="nativeConfigServer" options="-parameters" />
-      <module name="resttemplate" options="-parameters" />
-      <module name="ribbon" options="-parameters" />
-      <module name="zuul" options="-parameters" />
+      <module name="configserver" options="" />
+      <module name="consume" options="" />
+      <module name="eurekaclinet" options="" />
+      <module name="eurekaserver" options="" />
+      <module name="feign" options="" />
+      <module name="hystrix" options="" />
+      <module name="nativeConfigClient" options="" />
+      <module name="nativeConfigServer" options="" />
+      <module name="resttemplate" options="" />
+      <module name="ribbon" options="" />
+      <module name="zuul" options="" />
     </option>
   </component>
 </project>
